@@ -1,3 +1,4 @@
+uses maven from the command line or eclipse
 
 puts compiles the project and all the dependencies in one project. 
 mvn assembly:single

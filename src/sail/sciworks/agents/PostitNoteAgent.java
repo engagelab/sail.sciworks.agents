@@ -17,7 +17,7 @@ import com.mongodb.DBCollection;
 import com.mongodb.Mongo;
 import com.mongodb.MongoException;
 
-public class GopherAgent extends Agent {
+public class PostitNoteAgent extends Agent {
 	
 	private Mongo mongoDBConnection;
 	private DB mongoDB;
@@ -27,7 +27,7 @@ public class GopherAgent extends Agent {
 			@Override
 			public void run() {
 				try {
-					GopherAgent agent = new GopherAgent();
+					PostitNoteAgent agent = new PostitNoteAgent();
 					agent.setName("TheGopherAgent"); // can be omitted
 
 					System.out.println("Connecting...");
